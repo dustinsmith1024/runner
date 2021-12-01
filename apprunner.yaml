@@ -3,8 +3,8 @@ runtime: nodejs12
 build:
   commands:
     build:
+      - npm i
       - npm run build
-      # - pipenv install
 run:
   command: npm run start
   network:
